@@ -175,6 +175,7 @@ class PoseCorrNet(nn.Module):
 
 class FeatureCorrelation(torch.nn.Module):
     # From https://github.com/ignacio-rocco/ncnet/blob/master/lib/model.py, edited by AR 2023
+    # 图片对应 校准image registration
     def __init__(self, shape='3D', normalization=True):
         super(FeatureCorrelation, self).__init__()
         self.normalization = normalization
