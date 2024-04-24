@@ -22,8 +22,8 @@ python test.py /path/to/SyntheticColon_I --test-file /path/to/test_file.txt
 python train.py /path/to/SyntheticColon_I --name my_exp_name --batch_size 128 --frames-apart 5 --train-file /path/to/train_file.txt --val-file /path/to/val_file.txt --epochs 50 --lr 0.001
 ```
 ##  Windows
-in logger.py ```  blessings``` should change to ```  blessed```
-
+in logger.py ```  blessings  ``` should change to ```  blessed  ```
+in logger.py ```  pip uninstall progressbar  ```=>```  pip install progress2  ```
 ## Misc
 
 Thanks to the authors of [EndoSLAM](https://github.com/CapsuleEndoscope/EndoSLAM/tree/master/EndoSfMLearner) whose repo helped us a lot!
